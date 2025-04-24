@@ -102,7 +102,7 @@ h2{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: var(--whiteColor);
+    background-color: var(--blackColor);
     border: var(--blackColor) 4px solid;
     box-shadow: var(--blackColor) 8px 8px 0px 0px;
 }
