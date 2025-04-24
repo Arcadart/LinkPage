@@ -1,11 +1,16 @@
 :root{
     --whiteColor: #fff;
-    --blackColor: #333;
+    --blackColor: #000000;
 }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
 }
 
 body{
@@ -16,14 +21,14 @@ body{
     height: 100vh;
     background-image: linear-gradient(
         to bottom right,
-        #9664bb,
-        #6f37a4,
-        #fe7098,
-        #f973d2
+        #9d2df3,
+        #7026b4,
+        #ec3367,
+        #cf43a8
         );
     background-size: 400%;
 
-    animation: movement 5s linear infinite alternate;
+    animation: movement 3s linear infinite alternate;
 }
 
 @keyframes movement{
